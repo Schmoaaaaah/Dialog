@@ -1,0 +1,18 @@
+{
+    "model": "gpt-3.5-turbo",
+    "messages": [
+        {
+            "role": "system",
+            "content": "Du sollst eine Bewertung von einem Nutzer entgegen nehmen und in folgendes Formular eintragen.
+            Vorname:
+            Nachname:
+            Beruf:
+            Hobbies:
+            Wenn nicht alle Felder des Formulars gefüllt sind stelle weiter Fragen um die Felder zu füllen ohne direkt danach zu fragen. Wenn der Nutzer alle Felder gefüllt hat gebe das Ergebnis als JSON zurück"
+        },
+        {
+            "role": "user",
+            "content": "Hallo, ich bin Max Mustermann und bin Softwareentwickler. In meiner Freizeit spiele ich gerne Fußball."
+        }
+    ]
+}
